@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FreeCourse.Services.Catalog.Dtos;
+using FreeCourse.Services.Catalog.Services;
+using FreeCourse.Shared.BaseController;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,38 +12,50 @@ using Microsoft.AspNetCore.Mvc;
 namespace FreeCourse.Services.Catalog.Controllers
 {
     [Route("api/[controller]")]
-    public class CoursesController : Controller
+    public class CoursesController : CustomBaseController
     {
-        // GET: api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly ICourseService _courseService;
+
+        public CoursesController(ICourseService courseService)
         {
-            return new string[] { "value1", "value2" };
+            _courseService = courseService;
         }
 
-        // GET api/values/5
+        public async Task<IActionResult> GetAll()
+        {
+            var response = await _courseService.GetAllAsync();
+            return CreateActionResultInstance(response);
+        }
+        //courses/4
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> GetById(string id)
         {
-            return "value";
+            var response = await _courseService.GetByIdAsync(id);
+            return CreateActionResultInstance(response);
         }
-
-        // POST api/values
+        [Route("api/[controller]/GetAllByUserId/{userId}")]
+        public async Task<IActionResult> GetAllByUserId(string userId)
+        {
+            var response = await _courseService.GetAllByUserIdAsync(userId);
+            return CreateActionResultInstance(response);
+        }
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Create(CourseCreateDto courseCreateDto)
         {
+            var response = await _courseService.CreateAsync(courseCreateDto);
+            return CreateActionResultInstance(response);
         }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public async Task<IActionResult> Update(CourseUpdateDto courseUpdateDto)
         {
+            var response = await _courseService.UpdateAsync(courseUpdateDto);
+            return CreateActionResultInstance(response);
         }
-
-        // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(string id)
         {
+            var response = await _courseService.DeleteAsync(id);
+            return CreateActionResultInstance(response);
         }
     }
 }
