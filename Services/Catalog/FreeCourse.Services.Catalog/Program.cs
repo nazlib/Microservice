@@ -1,6 +1,7 @@
-﻿using FreeCourse.Services.Catalog.Models.Settings;
+﻿using FreeCourse.Services.Catalog.Settings;
 using FreeCourse.Services.Catalog.Services;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,10 +10,11 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers();
-builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSetting"));
+builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings"));
+
 builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 {
-    return sp.GetRequiredService<IOptions<IDatabaseSettings>>().Value;
+    return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

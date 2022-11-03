@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SRP3L+jphwpJ6hEiHFJbPrRBKXSay0v1tt3vVVYlPTKgm43yVBLsyDMjlO6HjCnK2C9+LcaIifwN5tZTgUpw5Q==",
+  "dgSpecHash": "ayzrrybpTcUh/0qMNcktVGLGO7x9Udk8+13hQy7NejzJS5bx2NszX1ViMspSthRMsjK65oV0zRr1Bqu5QNBxmg==",
   "success": true,
   "projectFilePath": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/FreeCourse.Services.Catalog.csproj",
   "expectedPackageFiles": [
-    "/Users/nazlibalatlioglu/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
-    "/Users/nazlibalatlioglu/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/nazlibalatlioglu/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/nazlibalatlioglu/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/nazlibalatlioglu/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/nazlibalatlioglu/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/nazlibalatlioglu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
