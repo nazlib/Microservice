@@ -1,6 +1,7 @@
 using Duende.IdentityServer;
 using FreeCourse.IdentityServer.Data;
 using FreeCourse.IdentityServer.Models;
+using FreeCourse.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -38,7 +39,9 @@ internal static class HostingExtensions
             .AddInMemoryApiResources(Config.ApiResources)
             .AddInMemoryApiScopes(Config.ApiScopes)
             .AddInMemoryClients(Config.Clients)
-            .AddAspNetIdentity<ApplicationUser>();
+            .AddAspNetIdentity<ApplicationUser>()
+            .AddResourceOwnerValidator<IdentityResourceOwnerPasswordValidator>();
+
         builder.Services.AddAuthentication()
             .AddGoogle(options =>
             {
@@ -71,7 +74,7 @@ internal static class HostingExtensions
         
         app.MapRazorPages()
             .RequireAuthorization();
-
+        //postman 404 not found hatası aldım
         app.MapControllers();
         return app;
     }

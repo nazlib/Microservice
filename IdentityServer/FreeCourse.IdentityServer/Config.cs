@@ -11,12 +11,20 @@ public static class Config
         new ApiResource("resource_photo_stock"){Scopes={"photo_stock_fullpermission"}},
         new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
     };
-    
+    //clientların kullanıcının hangi bilgilerine erişsein
     public static IEnumerable<IdentityResource> IdentityResources =>
         new IdentityResource[]
         {
-            new IdentityResources.OpenId(),
+            new IdentityResources.OpenId(),//jwt tokenınn subkeyword,
             new IdentityResources.Profile(),
+            new IdentityResources.Email(),
+            new IdentityResource()
+            {
+                Name="roles",
+                DisplayName= "Roles",
+                Description="Kullanıcı rolleri",
+                UserClaims=new []{ "role"} 
+            }
         };
 
     public static IEnumerable<ApiScope> ApiScopes =>
@@ -35,8 +43,29 @@ public static class Config
             new Client{ ClientId="WebMvcClient",
             ClientName="Asp.Net.Core MVC",
             ClientSecrets={new Secret("secret".Sha256()) },//veritabanından da çekebilirsin
-            AllowedGrantTypes=GrantTypes.ClientCredentials,
+            AllowedGrantTypes=GrantTypes.ClientCredentials,//refresh token bunda yok
             AllowedScopes={ "catalog_fullpermission", "photo_stock_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
+            },
+            new Client
+            {
+                ClientName="Asp.Net Core MVC",
+                ClientId="WebMvcClientForUser",
+                AllowOfflineAccess=true,//offline izin veriyoruz
+                ClientSecrets= {new Secret("secret".Sha256())},
+                AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,//refresh token icin tanımlıyoz
+                AllowedScopes={ //"basket_fullpermission", "order_fullpermission", "gateway_fullpermission",
+                    IdentityServerConstants.StandardScopes.Email,
+                    IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,
+                    //bu olmazsa yani elimizde refresh token yoksa tekrar email ve password bilgisi 1 saat sonra tekrar login ekranına gönder userı
+                    //çözüm accesstokenın ömrünü uzun yap(önerilmez) yada refreshtokenı al yeni token oluştur
+                    IdentityServerConstants.StandardScopes.OfflineAccess,//kullanıcı offline olsa dahi kullanıcı adına refresh token ile yeni bi token alabilirz
+                    IdentityServerConstants.LocalApi.ScopeName,"roles" },
+                AccessTokenLifetime=1*60*60,//1hour
+                RefreshTokenExpiration=TokenExpiration.Absolute,//sliding option refresh token istedikçe ömrünü artttırcak
+                AbsoluteRefreshTokenLifetime= (int) (DateTime.Now.AddDays(60)- DateTime.Now).TotalSeconds,//refresh token 60 gün sonra expire
+                RefreshTokenUsage= TokenUsage.ReUse//
             }
+            //kullanıcı her girdiğinde bir refresh token gelecek ama eğer bir kere girdi 61. gün girmek istediğinde tekrar login ekranına gitcek expire oldu
+
         };
 }
