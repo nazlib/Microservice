@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "Ucsac/2Z/+n19M3cakLbI0XNhVY8eoN/uuU9KWGzQmI=",
+  "Source": "FreeCourse.Services.PhotoStock",
+  "BasePath": "_content/FreeCourse.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeCourse.Services.PhotoStock/wwwroot",
+      "Source": "FreeCourse.Services.PhotoStock",
+      "ContentRoot": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/.DS_Store",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/photos/Ekran Resmi 2022-11-09 18.22.56.png",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/Ekran Resmi 2022-11-09 18.22.56.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/photos/Ekran Resmi 2022-11-09 18.22.56.png"
+    }
+  ]
+}

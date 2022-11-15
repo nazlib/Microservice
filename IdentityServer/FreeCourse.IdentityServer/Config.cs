@@ -59,7 +59,8 @@ public static class Config
                     //bu olmazsa yani elimizde refresh token yoksa tekrar email ve password bilgisi 1 saat sonra tekrar login ekranına gönder userı
                     //çözüm accesstokenın ömrünü uzun yap(önerilmez) yada refreshtokenı al yeni token oluştur
                     IdentityServerConstants.StandardScopes.OfflineAccess,//kullanıcı offline olsa dahi kullanıcı adına refresh token ile yeni bi token alabilirz
-                    IdentityServerConstants.LocalApi.ScopeName,"roles" },
+                    IdentityServerConstants.LocalApi.ScopeName,//kendi identity serverımıza local istek yapmak icin bu scope a sahip olmalı
+                    "roles" },
                 AccessTokenLifetime=1*60*60,//1hour
                 RefreshTokenExpiration=TokenExpiration.Absolute,//sliding option refresh token istedikçe ömrünü artttırcak
                 AbsoluteRefreshTokenLifetime= (int) (DateTime.Now.AddDays(60)- DateTime.Now).TotalSeconds,//refresh token 60 gün sonra expire
