@@ -20,9 +20,13 @@
     <None Remove="Controllers\" />
     <None Remove="StackExchange.Redis" />
     <None Remove="Dtos\" />
+    <None Remove="Settings\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Dtos\" />
+    <Folder Include="Settings\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>
