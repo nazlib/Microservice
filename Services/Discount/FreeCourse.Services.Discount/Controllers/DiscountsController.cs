@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Discount.Controllers
 {
+
     [Route("api/[controller]")]
-    [ApiController]
     public class DiscountsController : CustomBaseController
     {
         private readonly IDiscountService _discountService;

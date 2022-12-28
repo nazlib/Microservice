@@ -57,7 +57,7 @@ public static class Config
                 AllowOfflineAccess=true,//offline izin veriyoruz
                 ClientSecrets= {new Secret("secret".Sha256())},
                 AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,//refresh token icin tanımlıyoz
-                AllowedScopes={ "basket_fullpermission", "basket_fullpermission",//"order_fullpermission", "gateway_fullpermission",
+                AllowedScopes={ "basket_fullpermission", "discount_fullpermission",//"order_fullpermission", "gateway_fullpermission",
                     IdentityServerConstants.StandardScopes.Email,
                     IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,
                     //bu olmazsa yani elimizde refresh token yoksa tekrar email ve password bilgisi 1 saat sonra tekrar login ekranına gönder userı
