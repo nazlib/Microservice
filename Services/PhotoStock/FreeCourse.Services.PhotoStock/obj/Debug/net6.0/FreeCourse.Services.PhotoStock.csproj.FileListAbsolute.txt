@@ -26,6 +26,11 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/FreeCourse.Services.PhotoStock.csproj.CoreCompileInputs.cache
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/FreeCourse.Services.PhotoStock.MvcApplicationPartsAssemblyInfo.cs
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/FreeCourse.Services.PhotoStock.MvcApplicationPartsAssemblyInfo.cache
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets/msbuild.FreeCourse.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets/msbuild.build.FreeCourse.Services.PhotoStock.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FreeCourse.Services.PhotoStock.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FreeCourse.Services.PhotoStock.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets.build.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/staticwebassets.development.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/obj/Debug/net6.0/scopedcss/bundle/FreeCourse.Services.PhotoStock.styles.css

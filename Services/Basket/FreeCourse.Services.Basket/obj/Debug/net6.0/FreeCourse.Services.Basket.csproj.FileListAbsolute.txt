@@ -33,6 +33,11 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/FreeCourse.Services.Basket.csproj.CoreCompileInputs.cache
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/FreeCourse.Services.Basket.MvcApplicationPartsAssemblyInfo.cs
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/FreeCourse.Services.Basket.MvcApplicationPartsAssemblyInfo.cache
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets/msbuild.FreeCourse.Services.Basket.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets/msbuild.build.FreeCourse.Services.Basket.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FreeCourse.Services.Basket.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FreeCourse.Services.Basket.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets.build.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/staticwebassets.development.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/obj/Debug/net6.0/scopedcss/bundle/FreeCourse.Services.Basket.styles.css

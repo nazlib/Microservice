@@ -8,6 +8,12 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/AutoMapper.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/DnsClient.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/MongoDB.Bson.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/MongoDB.Driver.dll
@@ -17,6 +23,7 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/runtimes/linux/native/libsnappy64.so
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/runtimes/linux/native/libzstd.so
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/bin/Debug/net6.0/runtimes/osx/native/libsnappy64.dylib
@@ -36,6 +43,11 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/FreeCourse.Services.Catalog.csproj.CoreCompileInputs.cache
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/FreeCourse.Services.Catalog.MvcApplicationPartsAssemblyInfo.cs
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/FreeCourse.Services.Catalog.MvcApplicationPartsAssemblyInfo.cache
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets/msbuild.FreeCourse.Services.Catalog.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets/msbuild.build.FreeCourse.Services.Catalog.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FreeCourse.Services.Catalog.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FreeCourse.Services.Catalog.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets.build.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/staticwebassets.development.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/obj/Debug/net6.0/scopedcss/bundle/FreeCourse.Services.Catalog.styles.css

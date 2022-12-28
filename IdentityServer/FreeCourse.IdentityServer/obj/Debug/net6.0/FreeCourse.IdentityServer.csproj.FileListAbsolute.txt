@@ -91,6 +91,11 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/FreeCourse.IdentityServer.RazorAssemblyInfo.cache
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/FreeCourse.IdentityServer.RazorAssemblyInfo.cs
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets/msbuild.FreeCourse.IdentityServer.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets/msbuild.build.FreeCourse.IdentityServer.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FreeCourse.IdentityServer.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FreeCourse.IdentityServer.props
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets.build.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/staticwebassets.development.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/obj/Debug/net6.0/scopedcss/bundle/FreeCourse.IdentityServer.styles.css

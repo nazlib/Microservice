@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ucsac/2Z/+n19M3cakLbI0XNhVY8eoN/uuU9KWGzQmI=",
+  "Hash": "wsp0Vs/Kon74ch3PqX9nIho1tpEdAz2e4YfzRmTt0Ds=",
   "Source": "FreeCourse.Services.PhotoStock",
   "BasePath": "_content/FreeCourse.Services.PhotoStock",
   "Mode": "Default",
@@ -32,23 +32,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
-    },
-    {
-      "Identity": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/photos/Ekran Resmi 2022-11-09 18.22.56.png",
-      "SourceId": "FreeCourse.Services.PhotoStock",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/PhotoStock/FreeCourse.Services.PhotoStock/wwwroot/",
-      "BasePath": "_content/FreeCourse.Services.PhotoStock",
-      "RelativePath": "photos/Ekran Resmi 2022-11-09 18.22.56.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/photos/Ekran Resmi 2022-11-09 18.22.56.png"
     }
   ]
 }
