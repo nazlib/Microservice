@@ -18,7 +18,7 @@ namespace FreeCourse.Services.Discount.Services
 
         public async Task<Response<Models.Discount>> GetById (int id)
         {
-            var discount = await _dbConnection.QuerySingleOrDefault("Select * from discount where id=@id", new {id});
+            var discount = (await _dbConnection.QueryAsync<Models.Discount>("select * from discount where id=@Id", new { Id = id })).SingleOrDefault();
             if (discount == null)
             {
                 return Response<Models.Discount>.Fail("Discount not found", 404);
@@ -41,12 +41,16 @@ namespace FreeCourse.Services.Discount.Services
 
         public async Task<Response<Models.Discount>> GetByCodeAndUserId(string code, string userId)
         {
-            var discount = await _dbConnection.QuerySingleOrDefault("Select * from discount where uuserid=@UserId and code=@Code", new { UserId = userId, Code = code });
-            if (discount == null)
+            var discounts = await _dbConnection.QueryAsync<Models.Discount>("select * from discount where userid=@UserId and code=@Code", new { UserId = userId, Code = code });
+
+            var hasDiscount = discounts.FirstOrDefault();
+
+            if (hasDiscount == null)
             {
                 return Response<Models.Discount>.Fail("Discount not found", 404);
             }
-            return Response<Models.Discount>.Success(discount, 200);
+
+            return Response<Models.Discount>.Success(hasDiscount, 200);
         }
     
 
