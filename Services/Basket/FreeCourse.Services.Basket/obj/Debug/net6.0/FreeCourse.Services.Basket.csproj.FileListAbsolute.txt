@@ -5,6 +5,12 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/FreeCourse.Services.Basket.runtimeconfig.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/FreeCourse.Services.Basket.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/FreeCourse.Services.Basket.pdb
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/Pipelines.Sockets.Unofficial.dll
@@ -15,6 +21,7 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Diagnostics.PerformanceCounter.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Security.Permissions.dll
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/bin/Debug/net6.0/System.Windows.Extensions.dll
