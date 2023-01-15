@@ -12,6 +12,7 @@ public static class Config
         new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
         new ApiResource("resource_discount"){Scopes={"discount_fullpermission"}},
         new ApiResource("resource_order"){Scopes={"order_fullpermission"}},
+        new ApiResource("resource_payment"){Scopes={"payment_fullpermission"}},
         new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
     };
     //clientların kullanıcının hangi bilgilerine erişsein
@@ -38,6 +39,7 @@ public static class Config
             new ApiScope("basket_fullpermission","full access for basket API"),
             new ApiScope("discount_fullpermission","full access for discount API"),
             new ApiScope("order_fullpermission","full access for order API"),
+            new ApiScope("payment_fullpermission","full access for payment API"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
 // client cre akış tipinde refresh token olmaz sabit clientID , client script var herszman token alırsın
@@ -59,7 +61,7 @@ public static class Config
                 AllowOfflineAccess=true,//offline izin veriyoruz
                 ClientSecrets= {new Secret("secret".Sha256())},
                 AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,//refresh token icin tanımlıyoz
-                AllowedScopes={ "basket_fullpermission", "discount_fullpermission","order_fullpermission",// "gateway_fullpermission",
+                AllowedScopes={ "basket_fullpermission", "discount_fullpermission","order_fullpermission","payment_fullpermission",// "gateway_fullpermission",
                     IdentityServerConstants.StandardScopes.Email,
                     IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,
                     //bu olmazsa yani elimizde refresh token yoksa tekrar email ve password bilgisi 1 saat sonra tekrar login ekranına gönder userı

@@ -3,5 +3,7 @@
 -photostock=>5012
 -basketAPI=>5013
 -discountAPI=>5014
+-orderAPI=>5015
+-fakePaymentAPI=>5016
 identity=> 5001
 

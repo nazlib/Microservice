@@ -1,4 +1,5 @@
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/bin/Debug/net6.0/appsettings.json
+/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/bin/Debug/net6.0/keys/is-signing-key-4A0525DCAEF612B6BCE300290384F688.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/bin/Debug/net6.0/keys/is-signing-key-6951BD99714559DF30D6AAF3B6B57682.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/bin/Debug/net6.0/FreeCourse.IdentityServer.staticwebassets.runtime.json
 /Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/bin/Debug/net6.0/FreeCourse.IdentityServer

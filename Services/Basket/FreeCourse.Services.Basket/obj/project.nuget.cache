@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q3njexyzf/s/sfFyQSbQ0M9y7eS0H4TW9oZKX3493RXYTz2neIWB0+/DNUPznlhDzDJSJcOep2kS529IN4yvvg==",
+  "dgSpecHash": "g4dxs47QNKuFWpCO3kF7Niheg85bUfl2ZduA1U/qC2u+lboKrGRLrYEk1r/8dzwBf+8t+NM3YI0X21QlB+n2jA==",
   "success": true,
   "projectFilePath": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Basket/FreeCourse.Services.Basket/FreeCourse.Services.Basket.csproj",
   "expectedPackageFiles": [
