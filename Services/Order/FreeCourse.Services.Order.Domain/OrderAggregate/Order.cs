@@ -13,6 +13,7 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
         private readonly List<OrderItem> _orderItems;
         //dışarıya ben readonly döneyim
         public IReadOnlyCollection<OrderItem> orderItems => _orderItems;
+        public Order() { }
         public Order(string buyerId, Address address)
         {
             _orderItems = new List<OrderItem>();
@@ -31,7 +32,7 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
                 _orderItems.Add(newOrderItem);
             }
         }
-        public decimal GetTotalPrice => _orderItems.Sum(x => x.Price);
+        public decimal GetTotalPrice => _orderItems.Sum(x => x.Price);//lambda kullandığım için sadece get
     }
 }
 
