@@ -1,13 +1,11 @@
 ﻿{
   "ConnectionStrings": {
-    "PostgreSql": ""
+    "DefaultConnection": "DataSource=app.db"
   },
   "Logging": {
     "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
+      "Default": "Warning"
     }
   },
   "AllowedHosts": "*"
 }
-

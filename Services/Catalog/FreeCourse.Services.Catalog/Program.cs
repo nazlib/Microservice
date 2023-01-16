@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using FreeCourse.Services.Catalog.Dtos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +35,19 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+
+    var categoryService = serviceProvider.GetRequiredService<ICategoryService>();
+
+    if (!categoryService.GetAllAsync().Result.Data.Any())
+    {
+        categoryService.CreateAsync(new CategoryDto { Name = "Asp.net Core Kursu" }).Wait();
+        categoryService.CreateAsync(new CategoryDto { Name = "Asp.net Core API Kursu" }).Wait();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
