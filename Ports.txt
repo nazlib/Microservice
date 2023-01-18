@@ -7,3 +7,4 @@
 -fakePaymentAPI=>5016
 identity=> 5001
 gateway=>5000
+Web=>5010
