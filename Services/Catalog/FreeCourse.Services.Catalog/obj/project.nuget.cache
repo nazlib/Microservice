@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fHUvD499RPSOgjERpfszWuNtxK8V2dl+yA+30tVQrG5dkm4z3QSSrLRcvtcCFRKaJz/iDdfZpm1J+MM+pNiY2A==",
+  "dgSpecHash": "jcxsKuNSwhjrHvFpA3+HNRbypjN7XljzXxx1d3P7pS8E/Xqgd8TvnMhvAXnuhAQKjJUrFbEiesgu/Sdi7s5tYg==",
   "success": true,
   "projectFilePath": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/Services/Catalog/FreeCourse.Services.Catalog/FreeCourse.Services.Catalog.csproj",
   "expectedPackageFiles": [

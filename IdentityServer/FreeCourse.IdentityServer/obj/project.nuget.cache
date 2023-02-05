@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DM5Nnd+zX4ZL5SDda8zs6qiY60MevV2qKm9IC0cljfXBzlX/mAC1b3yLo/ikrEtCRbGqP4WKszel0T1jrkyyuw==",
+  "dgSpecHash": "gzggZmZhSao8yy0hL5ks/yEKyHJKsrzY/3qD+vAmR19om9W0bPHPaptVmBgv6tLuJz4XGDLVwVw9tnn6OScHpA==",
   "success": true,
   "projectFilePath": "/Users/nazlibalatlioglu/Projects/UdemyMicroservices/IdentityServer/FreeCourse.IdentityServer/FreeCourse.IdentityServer.csproj",
   "expectedPackageFiles": [
