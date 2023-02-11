@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FreeCourse.Web.Models;
+using System.Net;
+using System.Net.Mail;
 
 namespace FreeCourse.Web.Controllers;
 
